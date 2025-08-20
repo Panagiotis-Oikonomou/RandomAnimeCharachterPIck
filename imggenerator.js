@@ -48,34 +48,41 @@ button.addEventListener('click', () => {
     
   stopTime = Math.floor(Math.random() * (5000 - 3000 + 1)) + 2000;
   let imageSets = {
-    A: imagesA,
-    B: imagesB,
-    C: imagesC,
-    D: imagesD,
-    E: imagesE,
-    F: imagesF,
-    G: imagesG,
-    H: imagesH,
-    I: imagesI,
-    J: imagesJ,
-    K: imagesK,
-    L: imagesL,
-    M: imagesM,
-    N: imagesN,
-    O: imagesO,
-    P: imagesP,
-    Q: imagesQ,
-    R: imagesR,
-    S: imagesS,
-    T: imagesT,
-    U: imagesU,
-    V: imagesV,
-    W: imagesW,
-    X: imagesX,
-    Y: imagesY,
-    Z: imagesZ
-  }
+  A: imagesA,
+  B: imagesB,
+  C: imagesC,
+  D: imagesD,
+  E: imagesE,
+  F: imagesF,
+  G: imagesG,
+  H: imagesH,
+  I: imagesI,
+  J: imagesJ,
+  K: imagesK,
+  L: imagesL,
+  M: imagesM,
+  N: imagesN,
+  O: imagesO,
+  P: imagesP,
+  Q: imagesQ,
+  R: imagesR,
+  S: imagesS,
+  T: imagesT,
+  U: imagesU,
+  V: imagesV,
+  W: imagesW,
+  X: imagesX,
+  Y: imagesY,
+  Z: imagesZ
+};
+
   images = imageSets[slct] || [];
+
+  if (images.length === 0) {
+    alert("No images found for the selected category.");
+    return;
+  } 
   
   interval = setInterval(changeImage, 50);
   setTimeout(stopChangingImages, stopTime);
+});
