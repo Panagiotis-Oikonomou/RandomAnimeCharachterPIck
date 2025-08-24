@@ -13,6 +13,17 @@ body {
     color: white;
 }
 
+
+#img {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
 .imgplace {
     grid-column: 4 / 6;
     grid-row: 1 / 3;

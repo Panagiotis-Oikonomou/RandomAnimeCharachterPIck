@@ -30,10 +30,18 @@ let images = [];
 let stopTime = 0;
 let interval;
 
-
+/*
 function changeImage() {
     const randomIndex = Math.floor(Math.random() * images.length);
     imageElement.src = images[randomIndex];
+} */
+
+function changeImage() {
+  const randomIndex = Math.floor(Math.random() * images.length);
+  imageElement.classList.remove('fade'); // Reset animation
+  void imageElement.offsetWidth; // Trigger reflow to restart animation
+  imageElement.src = images[randomIndex];
+  imageElement.classList.add('fade');
 }
 
 function stopChangingImages() {
@@ -85,6 +93,7 @@ button.addEventListener('click', () => {
     return;
   }
 
-  interval = setInterval(changeImage, 50);
+  //interval = setInterval(changeImage, 50);
+  interval = setInterval(changeImage, 800);
   setTimeout(stopChangingImages, stopTime);
 });
