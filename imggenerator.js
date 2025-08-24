@@ -1,6 +1,6 @@
 button = document.getElementById("butt");
 imageElement = document.getElementById("img");
-const imagesA = ['img/A/Abyss.jpg', 'img/A/Aizawa.jpg', 'img/A/All might.jpg', 'img/A/Aira.jpg', 'img/A/Akame.jpg', 'img/A/Akraptor.jpg', 'img/A/Anya.jpg'];
+const imagesA = ['img/A/Abyss.jpg', 'img/A/Aizawa.jpg', 'img/A/All might.jpg', 'img/A/Aira.jpg', 'img/A/Akame.jpg', 'img/A/Akraptor.jpg'];
 const imagesB = ['img/B/Bakugo.jpg', 'img/B/Bokuto.jpg', 'img/B/BonClay.jpg', 'img/B/Brook.jpg', 'img/B/Benimaru.jpg'];
 const imagesC = ['img/C/Charmi.jpg', 'img/C/Chopper.jpg', 'img/C/Crocodile.jpg'];
 const imagesD = ['img/D/Dabi.jpg', 'img/D/Doflamingo.jpg'];
@@ -9,7 +9,7 @@ const imagesF = ['img/F/Feitan.jpg', 'img/F/Fern.jpg'];
 const imagesG = ['img/G/Gen.jpg', 'img/G/Gabimaru.jpg', 'img/G/Gon.jpg', 'img/G/Giyuu.jpg'];
 const imagesH = ['img/H/Hairo.jpg', 'img/H/Hyouga.jpg', 'img/H/Hibana.jpg', 'img/H/Hoshina.jpg', 'img/H/Hanma.jpg', 'img/H/Heisuke.jpg', 'img/H/Heiten.jpg', 'img/H/Himmel.jpg'];
 const imagesI = ['img/I/Itachi.jpg'];
-const imagesJ = ['img/J/Jinbei.jpg', 'img/J/Jiraiya.jpg', 'img/J/Juyuu.jpg'];
+const imagesJ = ['img/J/Jinbei.jpg', 'img/J/Jiraiya.jpg'];
 const imagesK = ['img/K/Kaidou.jpg', 'img/K/Kakashi.jpg', 'img/K/Kaldo.jpg', 'img/K/Katakuri.jpg', 'img/K/Kazuma.jpg', 'img/K/Kid.jpg', 'img/K/Kokomi.jpg', 'img/K/Kuboyasu.jpg', 'img/K/Kageyama.jpg', 'img/K/Kenma.jpg', 'img/K/Kilua.jpg', 'img/K/Koby.jpg', 'img/K/Komamura.jpg', 'img/K/Khun.jpg', 'img/K/Kaneki.jpg', 'img/K/Kikoru.jpg'];
 const imagesL = ['img/L/Lance.jpg', 'img/L/Law.jpg', 'img/L/Luna.jpg', 'img/L/Lero ro.jpg', 'img/L/Laure.jpg'];
 const imagesM = ['img/M/Macaron.jpg', 'img/M/Mash.jpg', 'img/M/Minato.jpg', 'img/M/Mob.jpg', 'img/M/Mina Ashiro.jpg', 'img/M/Mitsui.jpg', 'img/M/Mitsuri.jpg', 'img/M/Mitsuya.jpg'];
