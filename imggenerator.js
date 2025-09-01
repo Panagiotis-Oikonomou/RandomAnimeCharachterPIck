@@ -54,7 +54,7 @@ button.addEventListener('click', () => {
 
   let slct = document.getElementById("select").value;
     
-  stopTime = Math.floor(Math.random() * (9000 - 3000 + 1)) + 2000;
+  stopTime = Math.floor(Math.random() * (9000 - 3000 + 1)) + 5000;
 
   let imageSets = {
     A: imagesA,
@@ -93,6 +93,6 @@ button.addEventListener('click', () => {
   }
 
   //interval = setInterval(changeImage, 50);
-  interval = setInterval(changeImage, 600);
+  interval = setInterval(changeImage, 500);
   setTimeout(stopChangingImages, stopTime);
 });
