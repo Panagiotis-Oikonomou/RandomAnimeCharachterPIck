@@ -93,6 +93,6 @@ button.addEventListener('click', () => {
   }
 
   //interval = setInterval(changeImage, 50);
-  interval = setInterval(changeImage, 1000);
+  interval = setInterval(changeImage, 600);
   setTimeout(stopChangingImages, stopTime);
 });
